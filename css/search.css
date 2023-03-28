@@ -224,7 +224,7 @@ border-radius: 15px;
 }
 .rectangle-group {
   top: 517px;
-  left: 260px;
+  left: 300px;
   background: linear-gradient(269.43deg, rgba(136, 136, 136, 0.4) 0%, rgba(136, 136, 136, 0.4) 100%);
 backdrop-filter: blur(15px);
 /* Note: backdrop-filter has minimal browser support */
