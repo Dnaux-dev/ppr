@@ -23,7 +23,7 @@
   position: absolute;
   width: 476px;
   height: 20px;
-  left: 100px;
+  left: 90px;
   top: 272px;
   font-size: 40px;
 }
@@ -46,7 +46,7 @@
  
   position: absolute;
   height: 470px;
-  left: 100px;
+  left: 90px;
   top: 372px;
   font-size:16px ;
   letter-spacing: -0.01em;
@@ -89,7 +89,7 @@
 .ellipse-parent {
   position: absolute;
   top: 1022px;
-  left: 100px;
+  left: 90px;
   box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.01);
   width: 300px;
   height: 50px;
