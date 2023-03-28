@@ -23,7 +23,7 @@
   position: absolute;
   width: 476px;
   height: 20px;
-  left: 150px;
+  left: 100px;
   top: 272px;
   font-size: 40px;
 }
@@ -46,9 +46,9 @@
  
   position: absolute;
   height: 470px;
-  left: 150px;
+  left: 100px;
   top: 372px;
-  font-size:12px ;
+  font-size:16px ;
   letter-spacing: -0.01em;
   line-height: 20px;
   text-align: justify;
