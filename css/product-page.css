@@ -133,8 +133,8 @@ justify-content: space-between;
 }
 .get-notified-when {
   position: absolute;
-  top: 580px;
-  left: 440px;
+  top: 460px;
+  left: 364px;
   font-size:22px;
   line-height: 100%;
   color: gray;
@@ -231,7 +231,7 @@ justify-content: space-between;
 }
 .minutes-parent {
   position: absolute;
-  top:374px;
+  top:390px;
   left: 353px;
   width: 77px;
   height: 50px;
