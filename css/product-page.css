@@ -18,7 +18,7 @@
 .infobillyboycomiccom {
   position: absolute;
   top: 861px;
-  left: 633px;
+  left: 433px;
   line-height: 100%;
   color:#BFDC36;
   text-align: center;
@@ -27,7 +27,7 @@
 .if-you-have {
   position: absolute;
   top: 819px;
-  left: 525px;
+  left: 325px;
   font-size:20px;
   line-height: 100%;
   color: gray;
@@ -97,7 +97,7 @@ line-height: 31px;
   height: 50px;
   position: absolute;
   top: 921px;
-  left: 633px;
+  left: 433px;
   justify-content: space-evenly;
   line-height: 100%;
   color:gray;
@@ -126,7 +126,7 @@ justify-content: space-between;
 .group-parent {
   position: absolute;
   top: 690px;
-  left: 461px;
+  left: 361px;
   width: 546px;
   height: 71px;
   color: var(--color-black);
@@ -134,7 +134,7 @@ justify-content: space-between;
 .get-notified-when {
   position: absolute;
   top: 606px;
-  left: 525px;
+  left: 325px;
   font-size:22px;
   line-height: 100%;
   color: gray;
@@ -232,14 +232,14 @@ justify-content: space-between;
 .minutes-parent {
   position: absolute;
   top:464px;
-  left: 353px;
+  left: 253px;
   width: 77px;
   height: 50px;
 }
 .coming-soon1 {
   position: absolute;
   top: 255px;
-  left: 441px;
+  left: 341px;
   font-size: 90px;
   line-height: 100%;
 }
