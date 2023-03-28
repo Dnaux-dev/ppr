@@ -152,6 +152,7 @@ header{
 
 .navbar a.active{
   color: #BFDC36;
+  background: #000;
 }
 
 /* Navbar */
