@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="shortcut-icon" href="img/favicon.ico" type="image/x-icon">
+  <title>BillyBoy Comic | Homepage</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+  <link rel="manifest" href="img/site.webmanifest">
+  <!-- Link To CSS -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Link TO Swiper -->
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <!-- Link to Box Icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/min/tiny-slider.js"></script>
+     
+    <style>
+      .mySlides {
+        display: none
+      }
+      img {
+        vertical-align: middle;
+      }
+      .slideshow-container {
+        max-width: 1100px;
+        position: relative;
+        margin: 20px auto;
+        border-radius: 30px;
+      }
+      /* Next & previous buttons */
+      .prev4,
+      .next4 {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 16px;
+        margin-top: -22px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+      }
+      /* Position the "next button" to the right */
+      .next4 {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+      }
+      /* On hover, add a black background color with a little bit see-through */
+      .prev4:hover,
+      .next4:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+      }
+      /* Caption text */
+      .text {
+        color: #ffffff;
+        font-size: 15px;
+        padding: 31px;
+        position: absolute;
+        bottom: 8px;
+        border-radius: 20px;
+        width: 419px;
+        height: 225px;
+        margin-left: 9px;
+        background: linear-gradient(359.3deg, #000000 -235.13%, rgba(0, 0, 0, 0.8) 61.96%);
+        backdrop-filter: blur(15px);
+      }
+      /* Number text (1/3 etc) */
+      .numbertext {
+        color: #ffffff;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+      }
+      /* The dots/bullets/indicators */
+      .pagination{
+        position: relative;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 600px;
+        left: 1190px;
+      }
+      .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin:0 15px 15px 15px;
+        background-color: #BFDC36;
+        border-radius: 50%;
+        z-index: 1;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+        
+      }
+      .active,
+      .dot:hover {
+        background-color: #999999;
+      }
+      /* Fading animation */
+      .fade {
+        -webkit-animation-name:fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+      }
+      @-webkit-keyframes fade {
+        from {
+          opacity: .4
+        }
+        to {
+          opacity: 1
+        }
+      }
+      @keyframes fade {
+        from {
+          opacity: .4
+        }
+        to {
+          opacity: 1
+        }
+      }
+      /* On smaller screens, decrease text size */
+      @media only screen and (max-width: 300px) {
+        .prev,
+        .next,
+        .text {
+          font-size: 11px
+        }
+      }
+    </style>
+  </head>
+  <body>
+      <!-- Header -->
+      <header>
+        <!-- navbar -->
+        <div class="nav container">
+          <!-- Logo -->
+          <a href="index.html" class="logo">
+            <img src="img/BillyBoy.png" alt="BillyBoy Logo">
+          </a>
+          <!-- Search Box -->
+          <div class="search-box">
+            <!-- <input type="search" name="" id="search-input" placeholder="Search comic"> -->
+            <a href="search.html" class="search-link"><i class="fa fa-search fa-2x"></i></a>
+            <a href="#notification"><i class="fa fa-bell fa-2x"></i></a>
+            <!-- <a href="#search"><img src="img/search.svg" alt=""></a> -->
+            <!-- <a class="vector-icon3" href="#notification"><img src="img/vector3.svg" alt=""></a> -->
+          </div>
+          <!-- User -->
+          <a href="#" class="user">
+            <img src="img/uu.png" alt="" class="user-img">
+          </a>
+          <button class="btn_3">
+            <a href="#sign-in" class="signin-btn">Sign in</a>
+          </button>
+          <div class="social-links">
+            <a href="#" class="fb">
+              <img src="img/fb-removebg-preview.png" alt="facebook" class="fb-icon">
+            </a>
+            <a href="#" class="twitter">
+              <img src="img/tw-removebg-preview.png" class="twitter-icon">
+            </a>
+            <a href="#" class="insta">
+              <img src="img/ins-removebg-preview.png" alt="" class="insta-icon">
+            </a>
+          </div>
+          <!-- NavBar -->
+          <div class="navbar">
+            <a href="index.html" class="nav-link active">
+              <span class="nav-link-title">Home</span>
+            </a>
+            <a href="#about" class="nav-link">
+              <!-- <i class='bx bx-home'></i> -->
+              <span class="nav-link-title">Library</span>
+            </a>
+            <a href="product-page.html" class="nav-link">
+              <!-- <i class='bx bx-library'></i> -->
+              <span class="nav-link-title">Product</span>
+            </a>
+            <a href="about.html" class="nav-link">
+              <!-- <i class='bx bx-bell' ></i> -->
+              <span class="nav-link-title">About us</span>
+            </a>
+            <a href="#home" class="nav-link">
+              <!-- <i class='bx bx-heart'></i> -->
+              <span class="nav-link-title">Contact us</span>
+            </a>
+          </div>
+        </div>
+      </header>
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img src="img/Danger.png" style="width:100%">
+        <div class="text">
+          <h1 class="home-title">Danger girl</h1>
+          <div class="feature">
+            <p>Action <span class="dn"></span> Sci-fi <span class="dn"></span> Afro-futurism <span class="dn"></span> Superheroes</p>
+          </div>
+          <p class="rating">
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+          </p>
+          <div class="cta">
+            <button class="btn_1">
+              <a href="#Read-now" class="read-btn">Read now</a>
+            </button>
+            <button class="btn_2">
+              <a href="#Read-later" class="later-btn">Read Later</a>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="img/Danger.png" style="width:100%">
+        <div class="text">
+          <h1 class="home-title">Danger girl</h1>
+          <div class="feature">
+            <p>Action <span class="dn"></span> Sci-fi <span class="dn"></span> Afro-futurism <span class="dn"></span> Superheroes</p>
+          </div>
+          <p class="rating">
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+          </p>
+          <div class="cta">
+            <button class="btn_1">
+              <a href="#Read-now" class="read-btn">Read now</a>
+            </button>
+            <button class="btn_2">
+              <a href="#Read-later" class="later-btn">Read Later</a>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="img/Danger.png" style="width:100%">
+        <div class="text">
+          <h1 class="home-title">Danger girl</h1>
+          <div class="feature">
+            <p>Action <span class="dn"></span> Sci-fi <span class="dn"></span> Afro-futurism <span class="dn"></span> Superheroes</p>
+          </div>
+          <p class="rating">
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+          </p>
+          <div class="cta">
+            <button class="btn_1">
+              <a href="#Read-now" class="read-btn">Read now</a>
+            </button>
+            <button class="btn_2">
+              <a href="#Read-later" class="later-btn">Read Later</a>
+            </button>
+          </div>
+        </div>
+      </div>
+      <a class="prev4" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next4" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+    <div style="text-align:center" class="pagination">
+      <span class="dot" onclick="currentSlide(0)"></span>
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+    </div>
+
+    <!--  -->
+    <section id="slider">
+      <div class="container">
+        <div class="subcontainer">
+          <div class="slider-wrapper">
+            <div class="controller">
+              <div>
+                <h2>BillyBoy Exclusive</h2>
+              </div>
+              <div id="controls">
+                <button class="previous"><i class="fa-solid fa-angle-left"></i></button>
+                <button class="next"><i class="fa-solid fa-angle-right"></i></button>
+              </div>
+            </div>
+            <br>
+            <div class="my-slider">
+              <div>
+                <div class="slide">
+                  <div class="slide-img img-1">
+                    <a href="#">Read now</a>
+                  </div>
+                  <br>
+                  <div>
+                    <h3>Wolverine</h3>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="slide">
+                  <div class="slide-img img-2">
+                    <a href="#">Read now</a>
+                  </div>
+                  <br>
+                  <div>
+                    <h3>Daredevil</h3>
+                  </div>
+                </div>
+              </div>
+              <!--  -->
+              <div>
+                <div class="slide">
+                  <div class="slide-img img-3">
+                    <a href="#">Read now</a>
+                  </div>
+                  <br>
+                  <div>
+                    <h3>Batman</h3>
+                  </div>
+                </div>
+              </div>
+              <!--  -->
+              <div>
+                <div class="slide">
+                  <div class="slide-img img-4">
+                    <a href="#">Read now</a>
+                  </div>
+                  <br>
+                  <div>
+                    <h3>Oroni</h3>
+                  </div>
+                </div>
+              </div>
+              <!--  -->
+              <div>
+                <div class="slide">
+                  <div class="slide-img img-5">
+                    <a href="#">Read now</a>
+                  </div>
+                  <br>
+                  <div>
+                    <h3>Wolverine</h3>
+                  </div>
+                </div>
+              </div>
+              <!--  -->
+            </div>
+
+            
+            <!--  -->
+            
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--  -->
+    <section id="slider1">
+      <div class="container">
+        <div class="subcontainer">
+          <div class="slider-wrapper">
+            <div class="controller">
+              <div>
+                <h2>Recent Release</h2>
+              </div>
+              <div id="controls1">
+                <button class="previous1"><i class="fa-solid fa-angle-left"></i></button>
+                <button class="next1"><i class="fa-solid fa-angle-right"></i></i></button>
+              </div>
+            </div>
+            <br>
+            <div class="my-slider1">
+              <div>
+                <div class="slide">
+                  <div class="slide-image img-6">
+                    <a href="#">Read now</a>
+                  </div>
+                  <br>
+                  <div>
+                    <h3>Mobius</h3>
+                  </div>
+                </div> 
+              </div>
+              <div>
+                <div class="slide">
+                  <div class="slide-image img-7">
+                    <a href="#">Read now</a>
+                  </div>
+                  <br>
+                  <div>
+                    <h3>Spawn</h3>
+                  </div>
+                </div> 
+              </div>
+              <div>
+                <div class="slide">
+                  <div class="slide-image img-8">
+                    <a href="#">Read now</a>
+                  </div>
+                  <br>
+                  <div>
+                    <h3>Gunshot</h3>
+                  </div>
+                </div> 
+              </div>
+              <div>
+                <div class="slide">
+                  <div class="slide-image img-9">
+                    <a href="#">Read now</a>
+                  </div>
+                  <br>
+                  <div>
+                    <h3>Nightwing</h3>
+                  </div>
+                </div> 
+              </div>
+              <div>
+                <div class="slide">
+                  <div class="slide-image img-10">
+                    <a href="#">Read now</a>
+                  </div>
+                  <br>
+                  <div>
+                    <h3>Nighthawk</h3>
+                  </div>
+                </div> 
+              </div>
+              
+              <!--  -->
+              <!--  -->
+              <!--  -->
+              <!--  -->
+            </div>
+
+            
+            <!--  -->
+            
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--  -->
+    <section id="slider2">
+      <div class="container">
+        <div class="subcontainer">
+          <div class="slider-wrapper">
+            <div class="controller">
+              <div>
+                <h2>Recommended Series</h2>
+              </div>
+              <div id="controls2">
+                <button class="previous2"><i class="fa-solid fa-angle-left"></i></button>
+                <button class="next2"><i class="fa-solid fa-angle-right"></i></i></button>
+              </div>
+            </div>
+            <br>
+            <div class="my-slider2">
+              <div>
+                <div class="slide">
+                  <div class="slide-image1 img-11">
+                    <a href="#">Read now</a>
+                  </div>
+                  <br>
+                  <div>
+                    <h3>Magic</h3>
+                  </div>
+                </div> 
+              </div>
+              <div>
+                <div class="slide">
+                  <div class="slide-image1 img-12">
+                    <a href="#">Read now</a>
+                  </div>
+                  <br>
+                  <div>
+                    <h3>Magneto</h3>
+                  </div>
+                </div> 
+              </div>
+              <div>
+                <div class="slide">
+                  <div class="slide-image1 img-13">
+                    <a href="#">Read now</a>
+                  </div>
+                  <br>
+                  <div>
+                    <h3><Table>The Beast</Table></h3>
+                  </div>
+                </div> 
+              </div>
+              <div>
+                <div class="slide">
+                  <div class="slide-image1 img-14">
+                    <a href="#">Read now</a>
+                  </div>
+                  <br>
+                  <div>
+                    <h3>Night</h3>
+                  </div>
+                </div> 
+              </div>
+              <div>
+                <div class="slide">
+                  <div class="slide-image1 img-15">
+                    <a href="#">Read now</a>
+                  </div>
+                  <br>
+                  <div>
+                    <h3>Dark Night</h3>
+                  </div>
+                </div> 
+              </div>
+              
+              <!--  -->
+              <!--  -->
+              <!--  -->
+              <!--  -->
+            </div>
+
+            
+            <!--  -->
+            
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--  -->
+    <section class="season container" id="season">
+      <!-- heading -->
+      <div class="heading_4" id="seas">
+        <h5 class="heading-title_4">This Season</h5>
+          <img class="fire" src="img/fire.png"/>
+          
+      </div>
+      <div class="details">
+        <h6 class="id">7TH MARCH - 30TH APRIL 2023</h6>
+        <a href="#" class="sub-link"><h6 class="subscribe">SUBSCRIBE</h6></a>
+      </div>
+      <div class="youtuber">
+        <img class="season-logo" src="img/BillyBoy.png" alt="">
+        <h5 class="season-text">This season 2023 ...</h5>
+        <i class="fa fa-ellipsis-v fa-3x" aria-hidden="true"></i>
+        <i class="fa fa-random fa-3x" aria-hidden="true"></i>
+      </div>
+      <div class="youtube">
+        <img class="youtube-img" src="img/15.png" alt="">
+        <a href="#"><img class="youtube-icon" src="img/youtube.png"></a>
+      </div>
+    </section>
+    <!--  -->
+    <section id="slider3">
+      <div class="container">
+        <div class="subcontainer">
+          <div class="slider-wrapper">
+            <div class="controller">
+              <div>
+                <h2>Complete Series</h2>
+              </div>
+              <div id="controls3">
+                <button class="previous3"><i class="fa-solid fa-angle-left"></i></button>
+                <button class="next3"><i class="fa-solid fa-angle-right"></i></i></button>
+              </div>
+            </div>
+            <br>
+            <div class="my-slider3">
+              <div>
+                <div class="slide">
+                  <div class="slide-image3 img-16">
+                    <a href="#">Read now</a>
+                  </div>
+                  <br>
+                  <div>
+                    <h3>Magic</h3>
+                  </div>
+                </div> 
+              </div>
+              <div>
+                <div class="slide">
+                  <div class="slide-image3 img-17">
+                    <a href="#">Read now</a>
+                  </div>
+                  <br>
+                  <div>
+                    <h3>Magneto</h3>
+                  </div>
+                </div> 
+              </div>
+              <div>
+                <div class="slide">
+                  <div class="slide-image3 img-13">
+                    <a href="#">Read now</a>
+                  </div>
+                  <br>
+                  <div>
+                    <h3><Table>The Beast</Table></h3>
+                  </div>
+                </div> 
+              </div>
+              <div>
+                <div class="slide">
+                  <div class="slide-image3 img-14">
+                    <a href="#">Read now</a>
+                  </div>
+                  <br>
+                  <div>
+                    <h3>Night</h3>
+                  </div>
+                </div> 
+              </div>
+              <div>
+                <div class="slide">
+                  <div class="slide-image3 img-15">
+                    <a href="#">Read now</a>
+                  </div>
+                  <br>
+                  <div>
+                    <h3>Dark Night</h3>
+                  </div>
+                </div> 
+              </div>
+              
+              <!--  -->
+              <!--  -->
+              <!--  -->
+              <!--  -->
+            </div>
+
+            
+            <!--  -->
+            
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--  -->
+    <section class="coming-soon container" id="coming">
+      <!-- heading -->
+      <div class="heading_6" id="com-soon">
+        <h2 class="heading-title_6">Coming Soon</h2> 
+        <!-- Swiper buttons -->
+        <div id="controls3">
+          <button class="previous3"><i class="fa-solid fa-angle-left"></i></button>
+          <button class="next3"><i class="fa-solid fa-angle-right"></i></i></button>
+        </div>
+      </div>
+      <!-- Content -->
+      <div class="coming-content swiper">
+        <div class="swiper-wrapper">
+          <!-- comic box 1 -->
+          <div class="swiper-slide" >
+            <div class="comic-box_6">
+              <img src="img/2.png" alt="" class="comic-box-img_1">
+              <div class="box-text">
+                <h2 class="date">March 17th 2023</h2>
+                <span class="comic">Magneto</span>
+                <div class="feat">
+                  <p>Action <span class="dt"></span> Sci-fi <span class="dt"></span> Afro-futurism <span class="dt"></span> Superheroes</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide" >
+            <div class="comic-box_6">
+              <img src="img/1.png" alt="" class="comic-box-img_1">
+              <div class="box-text">
+                <h2 class="date">March 17th 2023</h2>
+                <span class="comic">Magneto</span>
+                <div class="feat">
+                  <p>Action <span class="dt"></span> Sci-fi <span class="dt"></span> Afro-futurism <span class="dt"></span> Superheroes</p>
+                </div>
+              </div>
+            </div>
+          </div>
+         </div>
+       </div>
+    </section>
+   
+
+  
+
+
+
+
+
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/style.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/slideshow.js"></script>
+  </body>
+</html>
