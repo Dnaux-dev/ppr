@@ -33,7 +33,7 @@
 }
 .we-are-a {
   margin-block-start: 0;
-  margin-block-end: 5px;
+  margin-block-end: 25px;
 }
 .takes-us-thank {
   margin: 0;
@@ -174,7 +174,7 @@
   top: 1022px;
   left: 1040px;
   box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.01);
-  width: 358px;
+  width: 258px;
   height: 430px;
   color: var(--color-yellowgreen);
 }
