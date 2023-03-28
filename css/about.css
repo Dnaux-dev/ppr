@@ -48,13 +48,13 @@
   height: 470px;
   left: 150px;
   top: 372px;
-  font-size:16px ;
+  font-size:12px ;
   letter-spacing: -0.01em;
   line-height: 20px;
   text-align: justify;
   display: flex;
   align-items: center;
-  width: 1546px;
+  width: 1346px;
   text-shadow: 0 0 0 rgba(255, 255, 255, 0.01);
 }
 .group-child {
