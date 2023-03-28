@@ -125,7 +125,7 @@ justify-content: space-between;
 
 .group-parent {
   position: absolute;
-  top: 678px;
+  top: 690px;
   left: 591px;
   width: 546px;
   height: 71px;
@@ -133,8 +133,8 @@ justify-content: space-between;
 }
 .get-notified-when {
   position: absolute;
-  top: 500px;
-  left: 410px;
+  top: 580px;
+  left: 440px;
   font-size:22px;
   line-height: 100%;
   color: gray;
