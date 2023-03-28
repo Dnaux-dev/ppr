@@ -49,7 +49,7 @@
   height: 470px;
   left: 150px;
   top: 372px;
-  font-size:18px ;
+  font-size:16px ;
   letter-spacing: -0.01em;
   line-height: 20px;
   text-align: justify;
@@ -172,7 +172,7 @@
 .group-div {
   position: absolute;
   top: 1022px;
-  left: 1070px;
+  left: 1040px;
   box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.01);
   width: 358px;
   height: 430px;
