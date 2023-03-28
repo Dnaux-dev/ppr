@@ -143,7 +143,7 @@ input {
 }
 .search-item {
   position: absolute;
-  width: 1000px;
+  width: 1300px;
   height: 241px;
   left: 0px;
   top: 397px;
@@ -219,9 +219,6 @@ border-radius: 15px;
   width: 224px;
   height: 71px;
 }
-.group-item {
- 
-}
 .rectangle-group {
   top: 517px;
   left: 320px;
@@ -289,7 +286,7 @@ border-radius: 15px;
 }
 .rectangle-parent1 {
   top: 517px;
-  left: 1000px;
+  left: 995px;
   width: 170px;
   background: linear-gradient(269.43deg, rgba(136, 136, 136, 0.4) 0%, rgba(136, 136, 136, 0.4) 100%);
 backdrop-filter: blur(15px);
