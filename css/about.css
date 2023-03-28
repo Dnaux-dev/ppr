@@ -173,9 +173,9 @@
 .group-div {
   position: absolute;
   top: 1022px;
-  left: 940px;
+  left: 1040px;
   box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.01);
-  width: 250px;
+  width: 258px;
   height: 430px;
   color: var(--color-yellowgreen);
 }
