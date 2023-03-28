@@ -245,7 +245,7 @@ border-radius: 15px;
 }
 .rectangle-container {
   top: 517px;
-  left: 500px;
+  left: 530px;
   width: 222px;
   background: linear-gradient(269.43deg, rgba(136, 136, 136, 0.4) 0%, rgba(136, 136, 136, 0.4) 100%);
 backdrop-filter: blur(15px);
@@ -267,7 +267,7 @@ border-radius: 15px;
 }
 .group-div {
   top: 517px;
-  left: 920px;
+  left: 720px;
   width: 200px;
   background: linear-gradient(269.43deg, rgba(136, 136, 136, 0.4) 0%, rgba(136, 136, 136, 0.4) 100%);
 backdrop-filter: blur(15px);
